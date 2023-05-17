@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-registration',
@@ -6,5 +7,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./registration.component.css']
 })
 export class RegistrationComponent {
+
+  ngOnInit(){
+
+  }
+
+  ngOnDestroy(){
+
+
+  }
+
+
+  ngAfterViewInit(){
+
+
+  }
+
+
 
 }
